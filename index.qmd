@@ -1,0 +1,33 @@
+---
+title: "Lauren Chenarides"
+image: "images/photo.png"
+execute: 
+  echo: false
+  warning: false
+about:
+  template: trestles
+  links:
+    - text: '<i class="ai ai-cv fa-lg"></i>'
+      href: https://jhelvy.com/cv
+    - icon: github
+      href: https://github.com/jhelvy
+    - text: '<i class="fa fa-brands fa-bluesky"></i>'
+      href: https://bsky.app/profile/jhelvy.bsky.social
+    - icon: linkedin
+      href: https://www.linkedin.com/in/jhelvy/
+    - text: '<i class="ai ai-google-scholar fa-lg"></i>'
+      href: https://scholar.google.com/citations?user=DY2D56IAAAAJ
+    - text: '<i class="ai ai-researchgate fa-lg"></i>'
+      href: https://www.researchgate.net/profile/John_Helveston
+    - text: '<i class="ai ai-orcid fa-lg"></i>'
+      href: https://orcid.org/0000-0002-2657-9191
+---
+
+```{r setup}
+source("_common.R")
+```
+
+### Welcome to my personal website!
+
+I am a researcher, economist, data geek, baker, dog mom, and Assistant Professor at Colorado State University. I study food retail markets, consumer food decisions, and food prices. Through projects like [DemocratizingData.ai](https://democratizingdata.ai/), I work to make information more transparent, equitable, and build to serve the public good.  
+

@@ -1,0 +1,108 @@
+---
+title: "Research"
+# description: I lead interdisciplinary research that explores relationships between technological change and factors that shape it, such as consumer behavior, market dynamics, and policy. I apply a systems engineering perspective to better understand these relationships and to inform policy, with an emphasis on accelerating transitions to cleaner technologies. I have expertise in choice modeling, survey design, programming in R, China, and the global electric vehicle industry.
+preview: images/photo.png
+execute: 
+  echo: false
+  message: false
+  warning: false
+format: html 
+toc: true
+toc-location: left
+---
+
+<!-- Remove margin under list items -->
+
+<style>
+ol {
+    margin-bottom: 5px;
+}
+p {
+  margin: 5px 0 0 0;
+}
+</style>
+
+```{r setup}
+source("_common.R")
+
+# Update local copy of "pubs" Google sheet
+# write_csv(get_pubs(), here::here('content', 'pubs.csv'))
+
+# Get local copy of pubs
+# pubs <- read_csv(here::here('content', 'pubs.csv'))
+
+# Get pubs from Google sheet
+pubs <- get_pubs()
+```
+
+# Brief Summary
+
+My research focuses on understanding the factors influencing the development and adoption of emerging low-carbon technologies, particularly electric vehicles and solar PV panels.
+
+Internationally, I have highlighted China’s crucial role as the leading global supplier of these technologies, as detailed in our 2019 publication in [_Science_](https://doi.org/10.1126/science.aaz1014). In a subsequent paper published in 2022 in [_Nature_](https://doi.org/10.1038/s41586-022-05316-6), we used two-factor engineering learning curve models to quantify billions of dollars in cost savings from rapid cost declines associated with high learning rates from a globalized solar PV supply chain, which is the reason solar is now the cheapest source of electricity in most parts of the world. This issue is central to informing ongoing international trade disputes and addressing climate change.
+
+I have also extensively studied the EV industry, both in China and the U.S. In a paper published in [_Research Policy_](https://doi.org/10.1016/j.respol.2018.08.006), I analyzed how China's national and local institutions have interacted with industrial policy to foster a highly competitive environment for EV innovation, leading to the success of indigenous companies like BYD and Geely. In the U.S., my students and I leveraged tens of millions of online vehicle listings scraped from the web to quantify significant EV market trends, such as [how EVs are being used](https://doi.org/10.1016/j.joule.2023.09.015) and [how they are depreciating](https://doi.org/10.1088/1748-9326/ad3fce). I have also studied factors that affect people's willingness to buy an EV. In a paper published in [_Environmental Research Letters_](https://doi.org/10.1088/1748-9326/aba715), we found that direct experiences with EVs positively impact purchase intentions. In a [subsequent paper](https://doi.org/10.1088/1748-9326/ac7df3), we found that U.S. vehicle buyers overwhelmingly prefer immediate rebates at the point of sale, with this preference being particularly strong among lower-income households and used vehicle buyers. Our study was [referenced](https://www.politico.com/news/2023/10/06/treasury-biden-electric-vehicle-rebate-00120253) by the White House and the U.S. Department of Treasury as justification to support restructuring EV incentives to be applied at the point of sale, which was implemented in the 2022 Inflation Reduction Act.
+
+<center>
+
+[View my full CV here](cv.qmd)
+
+`r htmltools::HTML(paste0(icon_link(icon = "ai ai-google-scholar", text = "Google Scholar", url  = "https://scholar.google.com/citations?user=DY2D56IAAAAJ"), icon_link(icon = "ai ai-orcid", text = "ORCID", url  = "https://orcid.org/0000-0002-2657-9191"), icon_link(icon = "ai ai-researchgate", text = "Research Gate", url = "https://www.researchgate.net/profile/John_Helveston")))`
+
+<br>
+
+<u>Underline</u> indicates advisee; * graduate student, **undergraduate student
+
+</center>
+
+<br>
+
+## Refereed (Peer-Reviewed) Journal Articles
+
+`r make_pub_list(pubs, "peer_reviewed")`
+
+## Refereed Articles in Conference Proceedings
+
+`r make_pub_list(pubs, "conference")`
+
+## Working Papers & Papers Under Review
+
+`r make_pub_list(pubs, "working")`
+
+## Magazine Publications
+
+`r make_pub_list(pubs, "magazine")`
+
+## Books and Book Chapters
+
+`r make_pub_list(pubs, "book")`
+
+## Magazine Publications
+
+`r make_pub_list(pubs, "magazine")`
+
+## Opinion Editorials
+
+`r make_pub_list(pubs, "oped")`
+
+## Other
+
+`r make_pub_list(pubs, "other")`
+
+## Theses
+
+`r make_pub_list(pubs, "theses")`
+
+## Student Theses
+
+<aside>Theses by students advised by Helveston</aside>
+
+`r make_pub_list(pubs, "theses_student")`
+
+## Software
+
+`r make_pub_list(pubs, "software")`
+
+## Media Coverage
+
+`r make_media_list()`
