@@ -8,19 +8,15 @@ about:
   template: trestles
   links:
     - text: '<i class="ai ai-cv fa-lg"></i>'
-      href: https://jhelvy.com/cv
+      href: www.laurenchenarides.com/cv
     - icon: github
-      href: https://github.com/jhelvy
-    - text: '<i class="fa fa-brands fa-bluesky"></i>'
-      href: https://bsky.app/profile/jhelvy.bsky.social
+      href: https://github.com/laurenchenarides
     - icon: linkedin
-      href: https://www.linkedin.com/in/jhelvy/
+      href: https://www.linkedin.com/in/laurenchenarides/
     - text: '<i class="ai ai-google-scholar fa-lg"></i>'
-      href: https://scholar.google.com/citations?user=DY2D56IAAAAJ
-    - text: '<i class="ai ai-researchgate fa-lg"></i>'
-      href: https://www.researchgate.net/profile/John_Helveston
+      href: https://scholar.google.com/citations?user=07RAgEQAAAAJ&hl=en
     - text: '<i class="ai ai-orcid fa-lg"></i>'
-      href: https://orcid.org/0000-0002-2657-9191
+      href: https://orcid.org/my-orcid?orcid=0000-0001-8983-9694
 ---
 
 ```{r setup}
